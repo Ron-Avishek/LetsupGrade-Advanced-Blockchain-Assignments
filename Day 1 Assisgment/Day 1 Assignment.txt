@@ -1,0 +1,31 @@
+1.Read the white paper which Satoshi Nakamoto published. Explain in 10 points:
+
+I. The current transaction system, even for electronic and transactions upon internet relies upon a middlemen for transaction’s verification leading to overhead costs such as cost of mediation, verification fee, etc. Also, these middlemen take more information than required in order to provide their service. Ideally, peer-peer transaction should take place without a third party to rely upon in a secured and trust-worthy way.
+
+II. So, for this a way of digital signatures(hash) was proposed to do away with the middlemen but the problem was is the receiver can't verify that the sender did not double-send the transaction.
+
+III. To do away with this, a time-stamp server was introduced. A timestamp server works by taking a hash of a block of items to be timestamped and widely publishing the hash. Each timestamp includes the previous timestamp in its hash, forming a chain, with each additional timestamp reinforcing the ones before it.
+
+IV. The proof-of-work was implemented by incrementing a nonce in the block until a value is found that gives the block's hash the required zero bits.
+
+V. If a majority of CPU power is controlled by honest nodes, the honest chain will grow the fastest and outpace any competing chains.
+
+VI. New transactions are broadcast to all nodes. Each node collects new transactions into a block. Each node works on finding a difficult proof-of-work for its block.  When a node finds a proof-of-work, it broadcasts the block to all nodes.  Nodes accept the block only if all transactions in it are valid and not already spent. Nodes express their acceptance of the block by working on creating the next block in the chain, using the hash of the accepted block as the previous hash.
+
+VII. If the output value of a transaction is less than its input value, the difference is a transaction fee that is added to the incentive value of the block containing the transaction. Once a predetermined number of coins have entered circulation, the incentive can transition entirely to transaction fees and be completely inflation free.
+
+VIII. The necessity to announce all transactions publicly precludes privacy, but privacy can still be maintained by breaking the flow of information in another place: by keeping public keys anonymous
+ 
+IX. This is similar to the level of information released by stock exchanges, where the time and size of individual trades, the "tape", is made public, but without telling who the parties were.
+
+X. The network is robust in its unstructured simplicity. Nodes work all at once with little coordination. They do not need to be identified, since messages are not routed to any particular place and only need to be delivered on a best effort basis. Nodes can leave and rejoin the network at will, accepting the proof-of-work chain.
+
+
+
+2.Read International Banking Crisis with the collapse of the investment in 2008.
+
+The financial crisis of 2007–2008, also known as the global financial crisis (GFC), was a severe worldwide financial crisis. Excessive risk-taking by banks combined with the bursting of the United States housing bubble caused the values of securities tied to U.S. real estate to plummet, damaging financial institutions globally, culminating with the bankruptcy of Lehman Brothers on September 15, 2008, and an international banking crisis.The crisis sparked the Great Recession, which, at the time, was the most severe global recession since the Great Depression.
+
+From its peak in the second quarter of 2007 at $64.4 trillion, household wealth in the United States fell $14 trillion, to $50.4 trillion by the end of the first quarter of 2009, resulting in a decline in consumption, then a decline in business investment. In the fourth quarter of 2008, the quarter-over-quarter decline in real GDP in the U.S. was 8.4%. The U.S. unemployment rate peaked at 10.0% in October 2009, the highest rate since 1983 and roughly twice the pre-crisis rate.
+
+While the causes of the bubble are disputed, the precipitating factor for the Financial Crisis of 2007–2008 was the bursting of the United States housing bubble and the subsequent subprime mortgage crisis, which occurred due to a high default rate and resulting foreclosures of mortgage loans, particularly adjustable-rate mortgages. Some or all of the following factors contributed to the crisis

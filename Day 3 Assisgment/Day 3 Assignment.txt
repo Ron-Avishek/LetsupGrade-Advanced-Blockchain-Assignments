@@ -1,0 +1,29 @@
+2. Difference between Proof of stake and Proof of Work:
+
+Proof of Work:
+Participating nodes are called miners.
+Mining capacity depends on computational power.
+Mining produces new coins.
+Miners receive block rewards.
+Massive energy consumption.
+Significantly prone to 51% attacks.
+
+
+Proof of Stake:
+Participating nodes are called validators or forgers.
+Validating capacity depends on the stake in the network.
+No new coins are formed.
+Validators receive transaction fees.
+Low to moderate energy consumption.
+51% of attacks are virtually impossible.
+
+3: Read about types in ethereum & share a summary:
+
+Different platforms for Smart Contracts:
+Ethereum.
+RSK.
+EOS.
+TRON
+Stellar.
+
+Ethereum is a Cryptocurrency which got formulated in 2015 and is the 2nd widely used Cryptocurrency after Bitcoins.

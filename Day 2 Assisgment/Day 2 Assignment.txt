@@ -1,0 +1,1 @@
+In Day -2 of Advanced Blockchain Program, I have worked with Hash, Block, Blockchain, and distributed blockchain and I have observed that the data with more density will take quite more time for mining when compared to the data with less density.
